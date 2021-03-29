@@ -44,14 +44,14 @@ a {
 }
 
 .error {
-  color: #ff5555;
+  color: #44475a;
   font-style: italic;
 }
 
 .block {
   display: flex;
   flex-flow: row;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .forgot {
@@ -63,8 +63,8 @@ a {
 }
 
 label {
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 footer {
