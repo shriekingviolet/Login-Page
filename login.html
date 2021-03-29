@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" type="text/css" />
+  <script src="login.js"></script>
+
+  <div class="topnav">
+    <a class="logo">Login</a>
+    <a href="https://github.com/shriekingviolet">Violet Johnson</a>
+    <a href="https://github.com/shriekingviolet/Login-Page">Github</a>
+  </div>
+</head>
+
+<body>
+  <div class="box">
+    <h1>The first step to logging in, is to log on</h1>
+    <form
+      name="login"
+      id="login"
+      method="POST"
+      class="login"
+      onsubmit="return validateForm()"
+    >
+      <label for="username">Username or email address</label>
+      <input
+        name="username"
+        id="username"
+        type="text"
+        autofocus
+        class="username"
+        autocapitalize="none"
+        autocorrect="false"
+      />
+      <p id="userError" class="error">I</p>
+      <label for="password">Password</label>
+      <input name="passowrd" id="password" type="password" class="password" />
+      <p id="passError" class="error">I</p>
+      <input type="submit" name="submit" value="Login" class="submit" />
+      <div class="block">
+        <a href="" class="forgot">Forgot password?</a>
+        <a href="" class="create">Create An Account</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+<footer>
+  <p>Made using <a href="https://draculatheme.com">Dracula</a> color scheme</p>
+  <p>and <a href="https://github.com/tonsky/FiraCode">Fira Code</a> font</p>
+</footer>

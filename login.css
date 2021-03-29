@@ -1,0 +1,93 @@
+.login {
+  width: 375px;
+  height: 290px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #44475a;
+  border-radius: 6px;
+  background-color: #44475a;
+}
+
+input {
+  font-size: 20px;
+}
+
+.submit {
+  background-color: #50fa7b;
+  font-size: 20px;
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 600px;
+  font-family: "Fira Code";
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+a {
+  color: #ff79c6;
+  text-decoration: none;
+}
+
+.error {
+  color: #ff5555;
+  font-style: italic;
+}
+
+.block {
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+}
+
+.forgot {
+  margin: 5px;
+}
+
+.create {
+  margin: 5px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.topnav {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  border: 1px solid #44475a;
+  background-color: #44475a;
+  margin-top: -70px;
+  align-items: center;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  color: #f8f8f2;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 25px;
+}
